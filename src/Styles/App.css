@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "../fontawesome/css/fontawesome.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Patrick Hand', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:rgb(39 39 42);
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.point {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: #555;
+}
+
+.pin1 {
+  position: absolute;
+  border-radius: 50% 50% 50% 0;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  transform: rotate(-45deg);
+  z-index: 2;
+}
+
+.random-input{
+  position: absolute;
+  margin-left: 50px;
+  height: 40px;
+  width: 215px;
+  background-color:  rgb(217 249 157);
+  color: rgb(39 39 42);
+}
+
+.input-text{
+  position:absolute;
+  font-size:30px;
+  color: rgb(163 230 53);
+  
+}
+
+
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 18px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(217 249 157);
+ 
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: rgb(101 163 13);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:  rgb(63 98 18);
+  
+}
+
+::-webkit-scrollbar-corner {
+  background: rgb(217 249 157)
+}
