@@ -1,4 +1,4 @@
-A website developed using React and Typescript, where the user can create simple maps. Randomized maps can also be created.
+A website, where the user can create simple maps. Randomized maps can also be created.
 
 ![](Screenshots/1.jpg)
 ![](Screenshots/2.jpg)
